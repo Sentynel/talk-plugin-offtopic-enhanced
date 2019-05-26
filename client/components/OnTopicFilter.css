@@ -15,10 +15,10 @@
   margin-right: 6px;
 }
 
-:global(.talk-plugin-off-topic-comment) {
-  display: none !important;
+:global(.talk-plugin-off-topic-comment-hide) {
+  display: none;
 }
 
-:global(.talk-stream-tab-container) {
-  min-height: 250px;
+:global(.talk-plugin-off-topic-comment-show) {
+  display: block;
 }

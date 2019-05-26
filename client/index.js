@@ -1,6 +1,7 @@
 import translations from './translations.json';
 import OffTopicTag from './containers/OffTopicTag';
 import OffTopicFilter from './containers/OffTopicFilter';
+import OnTopicFilter from './containers/OnTopicFilter';
 import OffTopicCheckbox from './containers/OffTopicCheckbox';
 import reducer from './reducer';
 
@@ -15,6 +16,6 @@ export default {
   slots: {
     commentInputDetailArea: [OffTopicCheckbox],
     commentInfoBar: [OffTopicTag],
-    viewingOptionsFilter: [OffTopicFilter],
+    viewingOptionsFilter: [OffTopicFilter, OnTopicFilter],
   },
 };
