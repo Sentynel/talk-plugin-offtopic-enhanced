@@ -5,7 +5,7 @@ module.exports = {
       permissions: {
         public: true,
         self: true,
-        roles: [],
+        roles: ['MODERATOR', 'ADMIN'],
       },
       models: ['COMMENTS'],
       created_at: new Date(),
