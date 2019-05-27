@@ -3,6 +3,8 @@ import OffTopicTag from './containers/OffTopicTag';
 import OffTopicFilter from './containers/OffTopicFilter';
 import OnTopicFilter from './containers/OnTopicFilter';
 import OffTopicCheckbox from './containers/OffTopicCheckbox';
+import ModTag from './containers/ModTag';
+import ModActionButton from './containers/ModActionButton';
 import reducer from './reducer';
 
 /**
@@ -17,5 +19,7 @@ export default {
     commentInputDetailArea: [OffTopicCheckbox],
     commentInfoBar: [OffTopicTag],
     viewingOptionsFilter: [OffTopicFilter, OnTopicFilter],
+    moderationActions: [ModActionButton],
+    adminCommentInfoBar: [ModTag],
   },
 };
